@@ -1,0 +1,107 @@
+
+body {
+    font-family: 'Arial', 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.custom-navbar {
+    background: linear-gradient(45deg, #0c0c0c, #6610f2);
+    padding: 15px 0;
+}
+
+.navbar .nav-link {
+    color: white;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #ffdd57;
+}
+
+.logo {
+    height: 100px;
+}
+
+
+.btn-custom {
+    background-color: #ffdd57;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.btn-custom:hover {
+    background-color: #ffc107;
+    color: white;
+}
+
+
+.banner {
+    height: 100vh;
+    background: url('Nand.jpg') no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 20px auto;
+}
+#about h2, #about h3{
+    color: rgb(207, 54, 105);
+    
+    
+}
+#about img{
+    border: 20px, solid, white;
+    box-shadow: 0 0 10px 0 blueviolet;
+    border-radius: 25px;
+}
+.card-img-top{
+    width: 40px;
+
+}
+.card{
+    padding: 30px;
+    transition: all ease-in 0.5px;
+    border: 20px, solid, white;
+    box-shadow: 0 0 10px 0 blueviolet;
+    border-radius: 25px;
+    margin-top: 10px;
+
+}
+
+.card:hover{
+    background-color: #a37777;
+    box-shadow: 0 0 25px 0 palevioletred;
+}
+.card:hover, .card-title,
+.card:hover, .card-text{
+    color: #b19112;
+}
